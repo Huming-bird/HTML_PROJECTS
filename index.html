@@ -31,6 +31,44 @@
             <form action="https://httpbin.org/get" method="get">
                 <fieldset>
                     <legend><strong>PERSONAL INFO</strong></legend>
+                    <p>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="ahmed" autocomplete="on" required
+                            autofocus>
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="ahmed" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="your secret" required>
+                    </p>
+                    <p>
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" name="confirmpassword" id="confirmpassword" placeholder="your secret" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="08123456789"
+                            pattern="[0-9]{11}" required>
+                    </p>
+                </fieldset>
+
+                <hr>
+
+                <fieldset>
+                    <legend><strong>OTHER INFO</strong></legend>
+
+                    <P>
+                        Do you have an account with us?
+                        <br>
+                        <input type="radio" name="accountholder" id="accountholder">
+                        <label for="accountholder">yes</label>
+                        <br>
+                        <input type="radio" name="accountholder" id="accountholder">
+                        <label for="accountholder">no</label>
+                    </P>
                 </fieldset>
             </form>
         </section>
