@@ -18,7 +18,12 @@ body {
 
 }
 
-h1, h2, h3, a, dl {
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+    border-bottom: 1px dashed  blanchedalmond;
+}
+a, dl {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aqua;
 }
@@ -34,4 +39,8 @@ table, tr, td, th, caption {
     border-collapse: collapse;
     padding: 0.5rem;
     color: whitesmoke;
+}
+
+.subheader {
+    width: 25%;
 }
