@@ -1,0 +1,21 @@
+section {
+    margin: 20px;
+    border: 1px dashed black;
+}
+
+.intro {
+    height: 424px;
+    width: 1373px;
+    text-align: center;
+}
+
+.intro #expertise {
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    background-color: #16E0BD;
+    margin-right: 5%;
+    padding: 20px;
+    margin-top: 50px;
+}
